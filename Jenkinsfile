@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/anishnath/mkdocs.git'
+        git 'https://github.com/raphaeljuwe/Technical-Assessment.git'
       }
     }
     stage('Building image') {
